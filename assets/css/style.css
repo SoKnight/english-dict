@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    background: #18151B;
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: row;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    background: #1C1820;
+    box-shadow: 8px 8px 32px 2px rgba(0, 0, 0, 0.30);
+
+    display: flex;
+    width: 26%;
+    /*height: calc(100% - 4.5rem);*/
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.sidebar h1.header {
+    margin: auto;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.625rem;
+    text-transform: uppercase;
+}
+
+.sidebar .chapters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.sidebar .table-of-contents {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.75);
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.625rem;
+    text-transform: uppercase;
+}
+
+.sidebar .chapter-link {
+    cursor: pointer;
+}
+
+.sidebar .chapter-link,
+.content section .title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+
+    transition: .1s ease all;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.50);
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.625rem;
+}
+
+.sidebar .chapter-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.sidebar .chapter-link:active {
+    color: #FFF;
+}
+
+.sidebar .chapter-link .index,
+.content section .title .index {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.40);
+    text-overflow: ellipsis;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.625rem;
+}
+
+.sidebar .chapter-link:hover .index {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sidebar .chapter-link:active .index {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.content {
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.25rem;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.content > section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+}
+
+.content section .title {
+    color: #FFF;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.content section .title .index {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 2rem;
+}
+
+.content .word-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+}
+
+.word-cards .card {
+    display: flex;
+    padding: 1.125rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.125rem;
+    align-self: stretch;
+
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.card .header {
+    display: flex;
+    align-items: center;
+    gap: 1.125rem;
+}
+
+.card .header h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card .header h5 {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card .header h6 {
+    color: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card .meaning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card .meaning p {
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card .meaning p:nth-child(1) {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.card .meaning p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card .examples {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.card .examples svg {
+    width: 3rem;
+    height: 3rem;
+
+    stroke: #FFF;
+}
+
+.examples .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.examples .list p {
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.examples .list p.en {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.examples .list p.ru {
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: -0.75rem;
+}
