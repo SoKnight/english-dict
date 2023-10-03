@@ -95,7 +95,6 @@ a {
     -webkit-line-clamp: 1;
     align-self: stretch;
 
-    transition: .1s ease all;
     overflow: hidden;
     color: rgba(255, 255, 255, 0.50);
     text-overflow: ellipsis;
@@ -105,6 +104,8 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 2.625rem;
+
+    transition: .2s ease all;
 }
 
 .sidebar .chapter-link:hover {
@@ -182,6 +183,12 @@ a {
 
     border-radius: 1.25rem;
     background: rgba(255, 255, 255, 0.03);
+
+    transition: .2s ease all;
+}
+
+.word-cards .card:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .card .header {
@@ -281,4 +288,44 @@ a {
 .examples .list p.ru {
     color: rgba(255, 255, 255, 0.4);
     margin-top: -0.75rem;
+}
+
+.scroll-up {
+    display: flex;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 4.6875rem;
+    height: 4.6875rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background: #8019F5;
+    cursor: pointer;
+
+    transition: .2s ease all;
+}
+
+.scroll-up:hover {
+    transform: scale(1.05);
+}
+
+.scroll-up:active {
+    transform: scale(0.95);
+}
+
+.scroll-up:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M37.5 31.25L25 18.75L12.5 31.25' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 3.125rem;
+    height: 3.125rem;
 }

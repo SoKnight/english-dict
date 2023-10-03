@@ -58,5 +58,19 @@ const words = [
 			"If you have a long form, try to prune it down.",
 			"Если у вас длинная форма, попробуйте сократить ее."
 		]
+	],
+	[
+		"0",
+		[],
+		"to devote",
+		"|dɪˈvəʊt|",
+		"Pay attention to someone",
+		"Уделять, посвящать, посветить, предаваться",
+		[
+			"I might not be able to devote myself full time to the old racism.",
+			"Боюсь, у меня не получится уделять достаточно времени старому доброму расизму.",
+			"I am ready to devote years to the study of how I can repair the injuries I have caused.",
+			"- Я готова отдать годы, лишь бы искупить свою вину."
+		]
 	]
 ]
