@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let chapterId = wordModel[0];
         let word = wordModel[2];
 
+        if (!chapterId || !word)
+            continue;
+
         let wordsList = loadedChapters.get(chapterId);
         if (!wordsList) {
             wordsList = [word];
@@ -19,6 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         loadedWordModels.set(word, wordModel);
     }
+
+    console.log(`Loaded ${loadedWordModels.size} word(s):`);
+    console.log(loadedWordModels);
 
     for (let chapterId in chapters) {
         let chapterName = chapters[chapterId];
