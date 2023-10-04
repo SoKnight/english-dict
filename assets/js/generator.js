@@ -46,7 +46,7 @@ function generateWordCard(wordModel) {
         let location = wordModel[1];
         if (location && location.length === 2) {
             let locationNode = document.createElement("h6");
-                locationNode.innerHTML = `${location[0]} page, ${location[1]} paragraph`;
+                locationNode.innerHTML = `${location[0]} page / ${location[1]} paragraph`;
 
             node.append(locationNode);
         }
