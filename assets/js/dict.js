@@ -694,6 +694,32 @@ const words = [
 		]
 	],
 	[
+		"1.4",
+		[16, 5],
+		"to concern",
+		"|kənˈsɜːn|",
+		"To cause worry to someone",
+		"Беспокоиться, интересоваться, касаться, относиться, заботиться",
+		[
+			"The state of my father's health concerns us greatly.",
+			"Состояние здоровья моего отца нас очень беспокоит.",
+			"It concerns me that he hasn't been in contact.",
+			"Меня беспокоит, что он не выходил на связь."
+		]
+	],
+	[
+		"1.4",
+		[16, 5],
+		"cavalier",
+		"|ˌkævəˈlɪə|",
+		"Not considering other people's feelings or safety",
+		"Бесцеремонный, высокомерный, кавалер, всадник, рыцарь, кавалерист",
+		[
+			"That's a rather cavalier attitude.",
+			"Это довольно бесцеремонное отношение."
+		]
+	],
+	[
 		"1.5",
 		[17, 5],
 		"precisely",
@@ -736,6 +762,32 @@ const words = [
 	[
 		"1.5.1",
 		[17, 7],
+		"odds",
+		"|ɒdz|",
+		"The probability (= how likely it is) that a particular thing will or will not happen",
+		"Шансы, разногласие, перевес, разница, преимущество",
+		[
+			"If you drive a car all your life, the odds are that you'll have an accident at some point.",
+			"Если вы всю свою жизнь водите машину, велика вероятность, что в какой-то момент вы попадете в аварию.",
+			"There are heavy odds against people succeeding in such a bad economic climate.",
+			"Существуют большие шансы на то, что люди добьются успеха в таком плохом экономическом климате."
+		]
+	],
+	[
+		"1.5.1",
+		[17, 7],
+		"to stumble (upon)",
+		"|ˈstʌmb(ə)l|",
+		"To discover something by chance, or to meet someone by chance",
+		"Спотыкаться, споткнуться, оступаться, задержка, спотыкание",
+		[
+			"Workmen stumbled upon the mosaic while digging foundations for a new building.",
+			"Рабочие наткнулись на мозаику, когда копали фундамент для нового здания."
+		]
+	],
+	[
+		"1.5.1",
+		[17, 7],
 		"substantially",
 		"|səbˈstænʃ(ə)lɪ|",
 		"Same like generally",
@@ -755,20 +807,6 @@ const words = [
 		[
 			"Did you have a reason for choosing your destination or was it arbitrary?",
 			"Была ли у вас причина для выбора места назначения или это было произвольно?"
-		]
-	],
-	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
-		[
-			"",
-			"",
-			"",
-			""
 		]
 	],
 	[
