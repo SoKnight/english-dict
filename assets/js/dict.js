@@ -10,7 +10,11 @@ const chapters = {
 	"1.4": "Induction and Recursion",
 	"1.5": "Modeling the Problem",
 	"1.5.1": "Combinatorial Objects",
-	"1.5.2": "Recursive Objects"
+	"1.5.2": "Recursive Objects",
+	"1.6": "Proof by Contradiction",
+	"1.7": "About the War Stories",
+	"1.8": "War Story: Psychic Modeling",
+	"1.9": "Estimation"
 }
 
 /*
@@ -810,185 +814,171 @@ const words = [
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.5.1",
+		[19, 2],
+		"represent",
+		"|reprɪˈzent|",
+		"To show or describe something or someone",
+		"Представлять, изображать, отражать, представление",
 		[
-			"",
-			"",
-			"",
-			""
+			"This new report represents the current situation in our schools.",
+			"Этот новый отчет отражает текущую ситуацию в наших школах.",
+			"He represents himself as an expert, but he knows nothing.",
+			"Он выдает себя за эксперта, но он ничего не знает."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.5.1",
+		[19, 3],
+		"familiarity",
+		"|fəmɪlɪˈærɪtɪ|",
+		"A good knowledge of something, or the fact that you know it so well",
+		"Знакомство, фамильярность, близкое знакомство, хорошая осведомленность",
 		[
-			"",
-			"",
-			"",
-			""
+			"Ellen's familiarity with pop music is astonishing.",
+			"Знакомство Эллен с поп-музыкой поразительно.",
+			"I love the familiarity of my old chair.",
+			"Мне нравится фамильярность моего старого кресла."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.5.1",
+		[19, 3],
+		"fluent",
+		"|ˈfluːənt|",
+		"Flowing in a smooth attractive way",
+		"Беглый, текучий, плавный, жидкий, гладкий, переменная величина",
 		[
-			"",
-			"",
-			"",
-			""
+			"The dancers are fluent and poetic in their movement.",
+			"Танцоры плавны и поэтичны в своих движениях.",
+			"Arsenal were no match for Barcelona's fluent passing.",
+			"\"Арсенал\" не мог сравниться с плавной передачей \"Барселоны\"."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.5.2",
+		[19, 9],
+		"consecutive",
+		"|kənˈsekjʊtɪv|",
+		"Consecutive events, numbers, etc. follow one after another without an interruption",
+		"Последовательный, следственный",
 		[
-			"",
-			"",
-			"",
-			""
+			"This is the fifth consecutive weekend that I've spent working.",
+			"Это пятые выходные подряд, которые я провожу за работой."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.5.2",
+		[20, 6],
+		"chord",
+		"|kɔːd|",
+		"A straight line that joins the ends of an arc (= a curved line that forms part of a circle)",
+		"Хорда, пояс, струна, связка, сочетать"
+	],
+	[
+		"1.5.2",
+		[21, 1],
+		"convenience",
+		"|kənˈviːnɪəns|",
+		"The state of being convenient",
+		"Удобство, комфорт, преимущество, уборная, выгода",
 		[
-			"",
-			"",
-			"",
-			""
+			"I like the convenience of living close to work.",
+			"Мне нравится удобство жизни рядом с работой.",
+			"Just for convenience, I'm going to live at my mother's place until my new apartment is ready.",
+			"Просто для удобства я собираюсь пожить у своей матери, пока моя новая квартира не будет готова."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.7",
+		[22, 2],
+		"scattered",
+		"|ˈskætəd|",
+		"Covering a wide area",
+		"Разбросанный, разрозненный, рассыпанный, отдельный",
 		[
-			"",
-			"",
-			"",
-			""
+			"Toys and books were scattered about/around the room.",
+			"Игрушки и книги были разбросаны по всей комнате.",
+			"My family is scattered all over the world.",
+			"Моя семья разбросана по всему миру."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.7",
+		[22, 2],
+		"occasionally",
+		"|əˈkeɪʒ(ə)n(ə)lɪ|",
+		"Sometimes but not often",
+		"Иногда, изредка, время от времени, порой, случайно",
 		[
-			"",
-			"",
-			"",
-			""
+			"I see him occasionally in town.",
+			"Я иногда вижу его в городе.",
+			"Occasionally I'll have a piece of chocolate, but it's very rare.",
+			"Иногда я съедаю кусочек шоколада, но это очень редко."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.7",
+		[22, 4],
+		"reckoning",
+		"|ˈrek(ə)nɪŋ|",
+		"A calculation that you make",
+		"Расплата, расчет, счет, счисление пути, вычисление",
 		[
-			"",
-			"",
-			"",
-			""
+			"By my reckoning, we should arrive in ten minutes.",
+			"По моим расчетам, мы должны прибыть через десять минут."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.8",
+		[22, 8],
+		"encouraging",
+		"|eŋˈkʌrɪdʒɪŋ|",
+		"Making you feel more confidence or hope",
+		"Поощрение, ободрение, подстрекательство, обнадеживающий",
 		[
-			"",
-			"",
-			"",
-			""
+			"There was a lot of positive feedback, which was very encouraging.",
+			"Было много положительных отзывов, что очень обнадеживало."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.8",
+		[22, 11],
+		"narrowed",
+		"|ˈnærəʊd|",
+		"Limited to a small area of interest, activity, or thought",
+		"Суженный, зауженный",
 		[
-			"",
-			"",
-			"",
-			""
+			"They are unable to see beyond the narrow world of the theatre.",
+			"Они не способны видеть дальше узкого мира театра.",
+			"It was regarded as a very narrow interpretation of the law.",
+			"Это было расценено как очень узкое толкование закона."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.8",
+		[24, 3],
+		"annealing",
+		"|əˈniːlɪŋ|",
+		"Making metal or glass soft by heating and then cooling it slowly",
+		"Отжиг",
 		[
-			"",
-			"",
-			"",
-			""
+			"A natural long-term track annealing experiment on apatite. ",
+			"Естественный долгосрочный эксперимент по отжигу треков на апатите."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.8",
+		[24, 8],
+		"gratefully",
+		"|ˈɡreɪtf(ə)lɪ|",
+		"In a grateful way",
+		"Благодарно, с благодарностью, приятно",
 		[
-			"",
-			"",
-			"",
-			""
-		]
-	],
-	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
-		[
-			"",
-			"",
-			"",
-			""
+			"She smiled at me gratefully.",
+			"Она благодарно улыбнулась мне.",
+			"Local food banks gratefully accept monetary donations.",
+			"Местные продовольственные банки с благодарностью принимают денежные пожертвования."
 		]
 	]
 ]
