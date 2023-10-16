@@ -1103,45 +1103,39 @@ const words = [
 		"Рюкзак"
 	],
 	[
-		"1.9",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.10",
+		[29, 11],
+		"bathtub",
+		"|ˈbɑːθtʌb|",
+		"A long plastic, metal, or ceramic container that is filled with water so that you can sit or lie in it to wash your whole body",
+		"Ванна"
+	],
+	[
+		"1.10",
+		[29, 14],
+		"devise",
+		"|dɪˈvaɪz|",
+		"To invent a plan, system, object, etc., usually using your intelligence or imagination",
+		"Разрабатывать, изобретать, придумывать, завещание",
 		[
-			"",
-			"",
-			"",
-			""
+			"He's good at devising language games that you can play with students in class.",
+			"Он хорош в разработке языковых игр, в которые вы можете играть со студентами на занятиях.",
+			"The cartoon characters Snoopy and Charlie Brown were devised by Charles M. Schultz.",
+			"Персонажи мультфильма Снупи и Чарли Браун были придуманы Чарльзом М. Шульцем."
 		]
 	],
 	[
-		"1.9",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"1.10",
+		[30, 5],
+		"rink",
+		"|rɪŋk|",
+		"A large, flat surface, of ice or other hard material, for skating (= a sport using special boots to move along) or the area or building that contains this",
+		"Каток, скетинг-ринк",
 		[
-			"",
-			"",
-			"",
-			""
-		]
-	],
-	[
-		"1.9",
-		[],
-		"",
-		"",
-		"",
-		"",
-		[
-			"",
-			"",
-			"",
-			""
+			"An ice rink.",
+			"Ледовый каток.",
+			"A hockey rink.",
+			"Хокейный каток."
 		]
 	],
 	[
