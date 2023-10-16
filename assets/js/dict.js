@@ -14,7 +14,8 @@ const chapters = {
 	"1.6": "Proof by Contradiction",
 	"1.7": "About the War Stories",
 	"1.8": "War Story: Psychic Modeling",
-	"1.9": "Estimation"
+	"1.9": "Estimation",
+	"1.10": "Exercises"
 }
 
 /*
@@ -979,6 +980,210 @@ const words = [
 			"Она благодарно улыбнулась мне.",
 			"Local food banks gratefully accept monetary donations.",
 			"Местные продовольственные банки с благодарностью принимают денежные пожертвования."
+		]
+	],
+	[
+		"1.9",
+		[25, 2],
+		"diverse",
+		"|daɪˈvɜːs|",
+		"Including many different types of people or things",
+		"Разнообразный, разный, иной, несходный",
+		[
+			"Students from countries as diverse as Colombia and Lithuania use Cambridge textbooks.",
+			"Студенты из таких разных стран, как Колумбия и Литва, пользуются кембриджскими учебниками.",
+			"New York is a very culturally/ethnically diverse city.",
+			"Нью-Йорк - очень разнообразный в культурном и этническом отношении город."
+		]
+	],
+	[
+		"1.9",
+		[25, 3],
+		"feel confident",
+		"|fiːl ˈkɒnfɪd(ə)nt|",
+		"Behaving calmly because you have no doubts about your ability or knowledge",
+		"Чувствовать себя достаточно уверенно"
+	],
+	[
+		"1.9",
+		[25, 3],
+		"recalling",
+		"|rɪˈkɔːlɪŋ|",
+		"Bringing the memory of a past event into your mind, and often to giving a description of what you remember",
+		"Вспоминая"
+	],
+	[
+		"1.9",
+		[25, 4],
+		"hefty",
+		"|ˈheftɪ|",
+		"Large in amount, size, force...",
+		"Здоровенный, изрядный, дюжий, тяжелый, обильный",
+		[
+			"Her salary will go up by a hefty 13 percent.",
+			"Ее зарплата вырастет на целых 13 процентов.",
+			"A hefty book containing a lot of information.",
+			"Здоровенная книга с множеством информации."
+		]
+	],
+	[
+		"1.9",
+		[26, 4],
+		"frighteningly",
+		"|ˈfraɪt(ə)nɪŋ.li|",
+		"In a way that is frightening",
+		"Пугающе",
+		[
+			"She looked frighteningly thin.",
+			"Она выглядела пугающе худой.",
+			"His predictions turned out to be frighteningly accurate.",
+			"Его предсказания оказались пугающе точными."
+		]
+	],
+	[
+		"1.9",
+		[26, 7],
+		"approach",
+		"|əˈprəʊtʃ|",
+		"To come near or nearer to something or someone in space, time, quality, or amount",
+		"Подход, приближение, доступ, подходить, приближаться",
+		[
+			"We could just see the train approaching in the distance.",
+			"Мы могли только видеть вдалеке приближающийся поезд.",
+			"In my opinion, no other composers even begin to approach (= come near in quality to) Mozart.",
+			"На мой взгляд, ни один другой композитор даже не приближается по качеству к Моцарту."
+		]
+	],
+	[
+		"1.9",
+		[26, 9],
+		"deserve",
+		"|dɪˈzɜːv|",
+		"To have earned or to be given something because of the way you have behaved or the qualities you have",
+		"Заслуживать, быть достойным, стоить",
+		[
+			"After all that hard work, you deserve a holiday.",
+			"После всей этой тяжелой работы ты заслуживаешь отдыха.",
+			"Chris deserves our special thanks for all his efforts.",
+			"Крис заслуживает нашей особой благодарности за все его усилия."
+		]
+	],
+	[
+		"1.9",
+		[26, 9],
+		"thorough",
+		"|ˈθʌrə|",
+		"Detailed and careful",
+		"Тщательный, полный, подробный, глубокий, основательный",
+		[
+			"A thorough revision of the manuscript.",
+			"Тщательная переработка рукописи.",
+			"They did a thorough search of the area but found nothing.",
+			"Они тщательно обыскали окрестности, но ничего не нашли."
+		]
+	],
+	[
+		"1.9",
+		[27, 1],
+		"insight",
+		"|ˈɪnsaɪt|",
+		"(The ability to have) a clear, deep, and sometimes sudden understanding of a complicated problem or situation",
+		"Понимание, проницательность, интуиция",
+		[
+			"It was an interesting book, full of fascinating insights into human relationships.",
+			"Это была интересная книга, полная захватывающих прозрений о человеческих взаимоотношениях."
+		]
+	],
+	[
+		"1.10",
+		[27, 8],
+		"knapsack",
+		"|ˈnæpsæk|",
+		"A bag carried on the back or over the shoulder, used especially by people who go walking or climbing for carrying food, clothes, ...",
+		"Рюкзак"
+	],
+	[
+		"1.9",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"1.9",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"1.9",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"1.9",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"1.9",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"1.9",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
 		]
 	]
 ]
