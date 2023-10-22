@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(`Loaded ${loadedWordModels.size} word(s):`);
     console.log(loadedWordModels);
 
-    for (let chapterId in chapters) {
-        let chapterName = chapters[chapterId];
+    for (let [chapterId, chapterName] of Object.entries(chapters)) {
+        chapterId = chapterId.trimEnd();
         let wordsList = loadedChapters.get(chapterId);
 
         let chapterLink = generateChapterLink(chapterId, chapterName, !!wordsList);
