@@ -1,6 +1,6 @@
 const chapters = {
-	"0": "Preface",
-	"1": "Introduction to Algorithm Design",
+	"0 ": "Preface",
+	"1 ": "Introduction to Algorithm Design",
 	"1.1": "Robot Tour Optimization",
 	"1.2": "Selecting the Right Jobs",
 	"1.3": "Reasoning about Correctness",
@@ -15,7 +15,11 @@ const chapters = {
 	"1.7": "About the War Stories",
 	"1.8": "War Story: Psychic Modeling",
 	"1.9": "Estimation",
-	"1.10": "Exercises"
+	"1.10": "Exercises",
+	"2 ": "Algorithm Analysis",
+	"2.1": "The RAM Model of Computation",
+	"2.1.1": "Best-Case, Worst-Case, and Average-Case Complexity",
+	"2.2": "The Big Oh Notation"
 }
 
 /*
@@ -1139,7 +1143,219 @@ const words = [
 		]
 	],
 	[
-		"1.9",
+		"2",
+		[31, 1],
+		"complexity",
+		"|kəmˈpleksətɪ|",
+		"Involving a lot of different but connected parts in a way that is difficult to understand",
+		"Сложность, запутанность, запутанное дело",
+		[
+			"Complex details/issues.",
+			"Сложные детали/проблемы.",
+			"The situation is very complex.",
+			"Ситуация очень сложная."
+		]
+	],
+	[
+		"2",
+		[31, 2],
+		"assessing",
+		"|əˈsesɪŋ|",
+		"To make a judgment about the quality, size, value, etc of something",
+		"Оценка, оценивание",
+		[
+			"The tests are designed to assess a child's reading skills.",
+			"Тесты предназначены для оценки навыков чтения ребенка."
+		]
+	],
+	[
+		"2.1",
+		[31, 3],
+		"confronted",
+		"|kənˈfrʌntɪd|",
+		"To be in a difficult situation, or to be shown something which may cause difficulties",
+		"Столкнувшийся, противостоящий",
+		[
+			"We are confronted by the possibility of war.",
+			"Мы сталкиваемся с возможностью войны."
+		]
+	],
+	[
+		"2.1",
+		[32, 3],
+		"objection",
+		"|əbˈdʒekʃ(ə)n|",
+		"A reason why you do not like or approve of something or someone, or the fact that you do not like or approve of them",
+		"Возражение, протест, недостаток, неодобрение, неприязнь, нелюбовь, дефект",
+		[
+			"Our main objection to the new factory is that it's noisy.",
+			"Наше главное возражение против новой фабрики заключается в том, что она шумная.",
+			"I have no objections, if you want to stay an extra day.",
+			"У меня нет возражений, если вы хотите остаться еще на один день."
+		]
+	],
+	[
+		"2.1",
+		[32, 4],
+		"inconceivable",
+		"|ɪnkənˈsiːvəb(ə)l|",
+		"Impossible to imagine",
+		"Немыслимый, непостижимый, невообразимый, невероятный, необычайный",
+		[
+			"I find it inconceivable that she could be a killer.",
+			"Я нахожу немыслимым, что она могла быть убийцей."
+		]
+	],
+	[
+		"2.1",
+		[32, 5],
+		"misleading",
+		"|mɪsˈliːdɪŋ|",
+		"Making someone believe something that is untrue",
+		"Вводящий в заблуждение, обманчивый",
+		[
+			"Misleading information/statements.",
+			"Вводящ(ая/ие) в заблуждение информация/заявления."
+		]
+	],
+	[
+		"2.1",
+		[32, 5],
+		"robustness",
+		"|rəʊˈbʌstnəs|",
+		"The quality of being strong, and healthy or unlikely to break or fail",
+		"Прочность, надежность, здравомыслие, сила, здоровье",
+		[
+			"Doctors were amazed by his physical robustness.",
+			"Врачи были поражены его физической крепостью.",
+			"The robustness of the furniture makes it suitable for a playroom.",
+			"Прочная мебель делает ее подходящей для игровой комнаты."
+		]
+	],
+	[
+		"2.1.1",
+		[33, 5],
+		"distressingly",
+		"|dɪˈstres.ɪŋ.li|",
+		"In a way that causes worry, sadness, or pain",
+		"Мучительно, болезненно, печально",
+		[
+			"Distressingly, it may be years until the sadness lifts.",
+			"К сожалению, могут пройти годы, прежде чем печаль пройдет.",
+			"Her memory is so distressingly bad she often has to be reminded that her husband has died.",
+			"У нее настолько удручающе плохая память, что ей часто приходится напоминать, что ее муж умер."
+		]
+	],
+	[
+		"2.2",
+		[34, 4],
+		"liable",
+		"|ˈlaɪəb(ə)l|",
+		"Having (legal) responsibility for something or someone",
+		"Ответственный, подлежащий, подверженный, обязанный, доступный, возможный",
+		[
+			"The law holds parents liable if a child does not attend school.",
+			"Закон возлагает ответственность на родителей, если ребенок не посещает школу.",
+			"If we lose the case we may be liable for (= have to pay) the costs of the whole trial.",
+			"Если мы проиграем дело, мы можем понести ответственность за расходы на весь судебный процесс."
+		]
+	],
+	[
+		"2.2",
+		[34, 5],
+		"precise",
+		"|prɪˈsaɪs|",
+		"Exact and accurate",
+		"Точный, четкий, определенный, тщательный, уточнять",
+		[
+			"The bunker's precise location is a closely guarded secret.",
+			"Точное местоположение бункера держится в строжайшем секрете.",
+			"He caught me at the precise moment that I fainted.",
+			"Он поймал меня как раз в тот момент, когда я упала в обморок."
+		]
+	],
+	[
+		"2.2",
+		[35, 4],
+		"satisfied",
+		"|ˈsætɪsfæɪd|",
+		"Pleased because you have got what you wanted, or because something has happened in the way that you wanted",
+		"Довольный, удовлетворенный",
+		[
+			"Some people are never satisfied!",
+			"Некоторые люди никогда не бывают удовлетворены!",
+			"Are you satisfied with the new arrangement?",
+			"Довольны ли вы новым соглашением?"
+		]
+	],
+	[
+		"2.2",
+		[36, 3],
+		"to maintain",
+		"|meɪnˈteɪn|",
+		"To continue to have; to keep in existence, or not allow to become less",
+		"Поддерживать, сохранять, содержать, обслуживать",
+		[
+			"The army has been brought in to maintain order in the region.",
+			"Для поддержания порядка в регионе была привлечена армия.",
+			"We have standards to maintain.",
+			"У нас есть стандарты, которые мы должны поддерживать."
+		]
+	],
+	[
+		"2.2",
+		[36, 7],
+		"jarring",
+		"|ˈdʒɑːrɪŋ|",
+		"A jarring sight, sound, or experience is so different or unexpected that it has a strong and unpleasant effect on something or someone",
+		"Резкий, раздражающий, диссонанс, вибрация, колебание",
+		[
+			"A jarring cry/chord.",
+			"Резкий крик/аккорд.",
+			"A jarring experience.",
+			"Неприятный опыт."
+		]
+	],
+	[
+		"2.2",
+		[36, 7],
+		"instructive",
+		"|ɪnˈstrʌktɪv|",
+		"Giving useful or interesting information",
+		"Поучительный, просветительный",
+		[
+			"It would be instructive to follow up the opinion poll with another one after the election.",
+			"Было бы поучительно провести еще один опрос общественного мнения после выборов."
+		]
+	],
+	[
+		"2.2",
+		[37, 1],
+		"cleverness",
+		"|ˈklevənəs|",
+		"Ability to understand and learn quickly and easily",
+		"Сообразительность, ловкость, одаренность, умение, искусность, хитроумие",
+		[
+			"Everyone was impressed by the cleverness of the machine.",
+			"Все были впечатлены хитроумием машины."
+		]
+	],
+	[
+		"2.2",
+		[37, 1],
+		"inspiration",
+		"|ɪnspɪˈreɪʃ(ə)n|",
+		"Someone or something that gives you ideas for doing something",
+		"Вдохновение, вдох, воодушевление, влияние, инспирация, вдыхание, стимулирование",
+		[
+			"The golden autumn light provided the inspiration for the painting.",
+			"Золотой осенний свет послужил источником вдохновения для создания картины.",
+			"He went to church, perhaps seeking divine inspiration.",
+			"Он ходил в церковь, возможно, в поисках божественного вдохновения."
+		]
+	],
+	[
+		"",
 		[],
 		"",
 		"",
@@ -1153,7 +1369,7 @@ const words = [
 		]
 	],
 	[
-		"1.9",
+		"",
 		[],
 		"",
 		"",
@@ -1167,7 +1383,91 @@ const words = [
 		]
 	],
 	[
-		"1.9",
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
 		[],
 		"",
 		"",
