@@ -19,7 +19,32 @@ const chapters = {
 	"2 ": "Algorithm Analysis",
 	"2.1": "The RAM Model of Computation",
 	"2.1.1": "Best-Case, Worst-Case, and Average-Case Complexity",
-	"2.2": "The Big Oh Notation"
+	"2.2": "The Big Oh Notation",
+	"2.3": "Growth Rates and Dominance Relations",
+	"2.3.1": "Dominance Relations",
+	"2.4": "Working with the Big Oh",
+	"2.4.1": "Adding Functions",
+	"2.4.2": "Multiplying Functions",
+	"2.5": "Reasoning about Efficiency",
+	"2.5.1": "Selection Sort",
+	"2.5.2": "Insertion Sort",
+	"2.5.3": "String Pattern Matching",
+	"2.5.4": "Matrix Multiplication",
+	"2.6": "Summations",
+	"2.7": "Logarithms and Their Applications",
+	"2.7.1": "Logarithms and Binary Search",
+	"2.7.2": "Logarithms and Trees",
+	"2.7.3": "Logarithms and Bits",
+	"2.7.4": "Logarithms and Multiplication",
+	"2.7.5": "Fast Exponentiation",
+	"2.7.6": "Logarithms and Summations",
+	"2.7.7": "Logarithms and Criminal Justice",
+	"2.8": "Properties of Logarithms",
+	"2.9": "War Story: Mystery of the Pyramids",
+	"2.10": "Advanced Analysis (*)",
+	"2.10.1": "Esoteric Functions",
+	"2.10.2": "Limits and Dominance Relations",
+	"2.11": "Exercises"
 }
 
 /*
@@ -1355,87 +1380,83 @@ const words = [
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.3",
+		[37, 7],
+		"cavalierly",
+		"|ˌkæv.əˈlɪə.li|",
+		"In a way that does not consider other people's feelings or safety",
+		"Бесцеремонно, высокомерно, презрительно, свысока",
 		[
-			"",
-			"",
-			"",
-			""
+			"He has been called arrogant and cavalierly confrontational by his critics.",
+			"Критики называли его высокомерным и бесцеремонно настроенным на конфронтацию.",
+			"I have to say I'm disappointed that they take their obligations so cavalierly.",
+			"Должен сказать, я разочарован тем, что они так бесцеремонно относятся к своим обязательствам."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.3",
+		[38, 4],
+		"hardly sweats",
+		"|ˈhɑːdlɪ swets|",
+		"To do something without significant difficulties",
+		"Почти не потеет",
 		[
-			"",
-			"",
-			"",
-			""
+			"The scariest thing about this half is that Barcelona have hardly broken sweat.",
+			"Самое страшное в этом тайме то, что 'Барселона' почти не вспотела."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.3.1",
+		[38, 7],
+		"eventually",
+		"|ɪˈventʃʊəlɪ|",
+		"In the end, especially after a long time or a lot of effort, problems, etc.",
+		"В конечном счете, в конце концов, со временем",
 		[
-			"",
-			"",
-			"",
-			""
+			"Although she had been ill for a long time, it still came as a shock when she eventually died.",
+			"Хотя она долго болела, для меня все равно стало шоком, когда она в конце концов умерла.",
+			"It might take him ages but he'll do it eventually.",
+			"Это может занять у него целую вечность, но в конце концов он это сделает."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.3.1",
+		[38, 7],
+		"laggard",
+		"|ˈlæɡəd|",
+		"Someone or something that is very slow",
+		"Отстающий, увалень, неповоротливый человек, вялый, медлительный",
 		[
-			"",
-			"",
-			"",
-			""
+			"Mexico, long a laggard in financial reform, is at last putting its banks in order.",
+			"Мексика, долгое время отстававшая в проведении финансовых реформ, наконец-то приводит в порядок свои банки.",
+			"I confess to being a laggard over this form of tax-free investing.",
+			"Признаюсь, я немного отстаю от этой формы безналогового инвестирования."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.3.1",
+		[39, 9],
+		"intricacy",
+		"|ˈɪntrɪkəsɪ|",
+		"Complicated details",
+		"Хитросплетение, сложность, запутанность, путаница, лабиринт",
 		[
-			"",
-			"",
-			"",
-			""
+			"I enjoyed the film, but I couldn't follow all the intricacies of the plot.",
+			"Мне понравился фильм, но я не смог уследить за всеми хитросплетениями сюжета."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.5",
+		[41, 2],
+		"coarse",
+		"|kɔːs|",
+		"Rough and not smooth or soft, or not in very small pieces",
+		"Грубый, крупный, необработанный, шероховатый, грубошерстный",
 		[
-			"",
-			"",
-			"",
-			""
+			"And what coarse hands he has!",
+			"А какие у него шершавые руки!",
+			"Linen is a coarse-grained fabric.",
+			"Лен - это крупнозернистая ткань."
 		]
 	],
 	[
