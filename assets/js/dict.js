@@ -1460,6 +1460,272 @@ const words = [
 		]
 	],
 	[
+		"2.5.1",
+		[42, 4],
+		"distinctive",
+		"|dɪˈstɪŋ(k)tɪv|",
+		"Something that is distinctive is easy to recognize because it is different from other things",
+		"Отличительный, особый, характерный, самобытный"
+	],
+	[
+		"2.5.2",
+		[43, 3],
+		"crude",
+		"|kruːd|",
+		"Simple and not skilfully done or made",
+		"Сырой, неочищенный, грубый, сырье",
+		[
+			"A crude device/weapon",
+			"Примитивное устройство/оружие",
+			"A crude remark/comment",
+			"Грубое замечание/комментарий"
+		]
+	],
+	[
+		"2.5.2",
+		[43, 3],
+		"implied",
+		"|ɪmˈplaɪd|",
+		"If something is implied, it is understood to be true or to exist, although it is not stated directly or in a legal agreement",
+		"Подразумеваемый, предполагаемый",
+		[
+			"Some judges are of the opinion that there must be an express or implied agreement between the parties before the defence can operate.",
+			"Некоторые судьи придерживаются мнения, что между сторонами должно быть явное или подразумеваемое соглашение, прежде чем защита сможет действовать.",
+			"There is an implied duty upon partners to exercise reasonable care in the performance of their duties.",
+			"На партнерах лежит подразумеваемая обязанность проявлять разумную осторожность при выполнении своих обязанностей."
+		]
+	],
+	[
+		"2.5.3",
+		[43, 8],
+		"fairly straightforward",
+		"|ˈfeəlɪ streɪtˈfɔːwəd|",
+		"So easy to understand or simple",
+		"Довольно прямолинейный"
+	],
+	[
+		"2.5.3",
+		[45, 5],
+		"rifling",
+		"|ˈraɪflɪŋ|",
+		"Searching quickly through something, often in order to steal something",
+		"Нарезка",
+		[
+			"First, there appeared to be no rifling marks on the bullet.",
+			"Во-первых, на пуле, по-видимому, не было следов нарезов."
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
+		"",
+		[],
+		"",
+		"",
+		"",
+		"",
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	[
 		"",
 		[],
 		"",
