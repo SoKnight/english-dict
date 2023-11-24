@@ -1516,213 +1516,203 @@ const words = [
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.5.3",
+		[45, 7],
+		"overhanging",
+		"|ˌəʊvəˈhæŋɪŋ|",
+		"Sticking out over something that is at a lower level",
+		"Нависший",
 		[
-			"",
-			"",
-			"",
-			""
+			"Visitors walked to an overhanging cliff with a cave at its base.",
+			"Посетители подошли к нависающей скале с пещерой у ее подножия.",
+			"The buildings were connected by walkways with lush overhanging plants.",
+			"Здания были соединены дорожками с пышными нависающими растениями."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.6",
+		[47, 2],
+		"arbitrarily",
+		"|ɑːbɪˈtrerəlɪ|",
+		"In a way that is based on chance rather than being planned or based on reason",
+		"Произвольно",
 		[
-			"",
-			"",
-			"",
-			""
+			"We made the decision to go to Italy quite arbitrarily.",
+			"Мы приняли решение поехать в Италию совершенно произвольно.",
+			"He arbitrarily decided to take the part.",
+			"Он самовольно решил принять участие."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.6",
+		[47, 5],
+		"slightly",
+		"|ˈslaɪtlɪ|",
+		"Same as 'a little'",
+		"Немного, слегка, чуть, едва",
 		[
-			"",
-			"",
-			"",
-			""
+			"She's slightly taller than her sister.",
+			"Она немного выше своей сестры.",
+			"I'm slightly upset she forgot my birthday.",
+			"Я немного расстроен, что она забыла о моем дне рождения."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.6",
+		[47, 7],
+		"to reveal",
+		"|rɪˈviːl|",
+		"To make known or show something that is surprising or that was previously secret",
+		"Показывать, раскрывать, открывать",
 		[
-			"",
-			"",
-			"",
-			""
+			"He was jailed for revealing secrets to the Russians.",
+			"Он был заключен в тюрьму за то, что раскрыл секреты русским.",
+			"Her biography revealed that she was not as rich as everyone thought.",
+			"Ее биография показала, что она была не так богата, как все думали."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7",
+		[49, 1],
+		"refreshingly",
+		"|rɪˈfreʃɪŋlɪ|",
+		"In a way that is pleasantly different and interesting",
+		"Освежающе, поразительно",
 		[
-			"",
-			"",
-			"",
-			""
+			"A woman with refreshingly original ideas.",
+			"Женщина с освежающе оригинальными идеями.",
+			"They have been refreshingly honest with us.",
+			"Они были поразительно честны с нами."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.1",
+		[49, 3],
+		"apparent",
+		"|əˈpær(ə)nt|",
+		"Able to be seen or understood",
+		"Очевидный, видимый, кажущийся, явный",
 		[
-			"",
-			"",
-			"",
-			""
+			"Her unhappiness was apparent to everyone.",
+			"Ее несчастье было очевидно всем.",
+			"It was becoming increasingly apparent that he could no longer take care of himself.",
+			"Становилось все более очевидным, что он больше не мог позаботиться о себе сам."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.5",
+		[51, 1],
+		"to conquer",
+		"|ˈkɒŋkə|",
+		"To take control or possession of foreign land, or a group of people, by force",
+		"Покорять, завоевывать, побеждать, преодолевать",
 		[
-			"",
-			"",
-			"",
-			""
+			"The Spanish conquered the New World in the 16th century.",
+			"Испанцы завоевали Новый Свет в 16 веке.",
+			"The English were conquered by the Normans in 1066.",
+			"Англичане были завоеваны норманнами в 1066 году."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.6",
+		[51, 2],
+		"reciprocals",
+		"|rɪˈsɪprək(ə)l|",
+		"A reciprocal action or arrangement involves two people or groups of people who behave in the same way or agree to help each other and give each other advantages",
+		"Взаимный, обратный, ответный, обоюдный",
 		[
-			"",
-			"",
-			"",
-			""
+			"It's a beautiful reciprocal arrangement.",
+			"Взаимная помощь - это прекрасно.",
+			"Wouldn't you like to make some reciprocal gesture?",
+			"Не хочешь сделать ответный жест?"
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.7",
+		[51, 4],
+		"court",
+		"|kɔːt|",
+		"A place where trials and other legal cases happen, or the people present in such a place, especially the officials and those deciding if someone is guilty",
+		"Суд, судья, корт, двор, площадка, ухаживать",
 		[
-			"",
-			"",
-			"",
-			""
+			"Protestors gathered outside the court to await the verdict.",
+			"Протестующие собрались у здания суда в ожидании приговора.",
+			"He's due to appear in court again on Monday.",
+			"Он должен снова предстать перед судом в понедельник."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.7",
+		[51, 4],
+		"felon",
+		"|ˈfelən|",
+		"A person who is guilty of a serious crime",
+		"Преступник, панариций, жестокий, преступный"
+	],
+	[
+		"2.7.7",
+		[51, 4],
+		"convicted",
+		"|kənˈvɪktɪd|",
+		"Having officially been found guilty of a crime in a law court",
+		"Осужденный, изобличенный, осужденный, заключенный",
 		[
-			"",
-			"",
-			"",
-			""
+			"Being a convicted criminal, I couldn't really get a job. ",
+			"Будучи осужденным преступником, я не мог по-настоящему устроиться на работу.",
+			"A convicted murderer.",
+			"Осуждённый маньяк."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.7",
+		[51, 4],
+		"intricate",
+		"|ˈɪntrɪkət|",
+		"Having a lot of small parts that are arranged in a complicated or delicate way",
+		"Сложный, замысловатый, запутанный, усложнять",
 		[
-			"",
-			"",
-			"",
-			""
+			"The watch mechanism is extremely intricate and very difficult to repair.",
+			"Часовой механизм чрезвычайно сложен и его очень трудно починить.",
+			"The tiled floor is installed in an intricate pattern.",
+			"Пол выложен плиткой с замысловатым рисунком."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.7",
+		[51, 4],
+		"depravity",
+		"|dɪˈprævɪtɪ|",
+		"The state of being morally bad, or an action that is morally bad",
+		"Греховность, развращенность, порочность, испорченность",
 		[
-			"",
-			"",
-			"",
-			""
+			"We did not dream such depths of depravity.",
+			"Нам даже и не снились нынешние бездны развращенности!"
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.7",
+		[51, 4],
+		"fraud",
+		"|frɔːd|",
+		"The crime of getting money by deceiving people",
+		"Мошенничество, обман, мошенник, подделка, афера",
 		[
-			"",
-			"",
-			"",
-			""
+			"Credit card fraud.",
+			"Мошенничество с кредитными картами.",
+			"He is fighting extradition to Hong Kong to face trial on fraud charges.",
+			"Он добивается экстрадиции в Гонконг, чтобы предстать перед судом по обвинению в мошенничестве."
 		]
 	],
 	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
+		"2.7.7",
+		[51, 6],
+		"embezzling",
+		"|ɪmˈbezəlɪŋ|",
+		"Same as 'stealing something'",
+		"Присвоение",
 		[
-			"",
-			"",
-			"",
-			""
-		]
-	],
-	[
-		"",
-		[],
-		"",
-		"",
-		"",
-		"",
-		[
-			"",
-			"",
-			"",
-			""
+			"She embezzled thousands of dollars from the charity.",
+			"Она присвоила тысячи долларов из благотворительного фонда."
 		]
 	],
 	[
